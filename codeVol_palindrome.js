@@ -4,4 +4,4 @@ function isPalindrome(str) {
 
 // isPalindrome('racecar');
 
-console.log(isPalindrome('racecar'));
+console.log(isPalindrome('beeeeeb'));
