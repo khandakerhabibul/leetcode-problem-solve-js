@@ -69,3 +69,18 @@
 // const childrenOne = childrenTwo.previousElementSibling;
 // childrenOne.style.color = 'red';
 // console.log(childrenOne);
+
+// Creating an element
+// const divElement = document.createElement('div');
+
+// divElement.className = 'red';
+
+// divElement.setAttribute('id', 'red');
+// divElement.setAttribute('title', 'Red div');
+
+// const container = document.querySelector('.todo-list');
+// const h2 = container.querySelector('h2');
+// divElement.innerHTML = 'Red div';
+// // container.insertBefore(divElement, h2);
+// // container.appendChild(divElement);
+// container.append(divElement);
