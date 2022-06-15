@@ -84,3 +84,91 @@
 // // container.insertBefore(divElement, h2);
 // // container.appendChild(divElement);
 // container.append(divElement);
+
+// Listening to DOM Events
+// const headerElement = document.querySelector('#header');
+
+// Click event
+// headerElement.addEventListener('click', (event) => {
+//   console.log({ event });
+// });
+
+// Double click
+// headerElement.addEventListener('dblclick', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse Down
+// headerElement.addEventListener('mousedown', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse Up
+// headerElement.addEventListener('mouseup', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse enter
+// headerElement.addEventListener('mouseenter', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse leave
+// headerElement.addEventListener('mouseleave', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse over
+// headerElement.addEventListener('mouseover', (event) => {
+//   console.log({ event });
+// });
+
+// Mouse out
+// headerElement.addEventListener('mouseout', (event) => {
+//   console.log({ event });
+// });
+
+// for input type text
+// const inputElement = document.querySelector('input[type="text"]');
+// inputElement.addEventListener('keydown', (event) => {
+//   console.log({ event });
+// });
+
+// input enter any key
+// inputElement.addEventListener('keypress', (event) => {
+//   console.log({ event });
+// });
+
+// focus for input
+// inputElement.addEventListener('focus', (event) => {
+//   console.log({ event });
+// });
+
+// blur for input
+// inputElement.addEventListener('blur', (event) => {
+//   console.log({ event });
+// });
+
+// Cut for input
+// inputElement.addEventListener('cut', (event) => {
+//   console.log({ event });
+// });
+
+// Paste for input
+// inputElement.addEventListener('paste', (event) => {
+//   console.log({ event });
+// });
+
+// basically onChangeEvent , any Input , detect everything like focus, blur everything
+// inputElement.addEventListener('input', (event) => {
+//   console.log({ event });
+// });
+
+// const formElement = document.querySelector('form');
+// form Submit event
+// formElement.addEventListener('submit', (event) => {
+//   // after submitting it is reloading,
+//   // for stopping that reload we are using this one
+//   event.preventDefault();
+//   console.log({ event: event.target });
+// });
